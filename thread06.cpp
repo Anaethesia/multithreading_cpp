@@ -3,6 +3,7 @@
 #include<future>
 #include<vector>
 using namespace std;
+//std::lock_guard
 template <class T>  //泛型
 void measure(T&& func)       //&& 综合引用
 {
