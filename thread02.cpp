@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread>
 using namespace std;
+//子线程之间的相互竞争
 class A
 {
 public:
