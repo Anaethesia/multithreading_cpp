@@ -3,6 +3,7 @@
 #include<future>
 #include<vector>
 using namespace std;
+//引入future，async
 template <class T>  //泛型
 void measure(T&& func)       //&& 综合引用
 {
